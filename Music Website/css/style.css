@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../media/image.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #5F5F5F;
+    font-size: 15px;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.content .left-col {
+    margin-left: 6%;
+}
+.content .left-col h1 {
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.content .right-col {
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    
+    bottom: 0;
+    right: -97px;
+}
+.content .right-col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content .right-col div {
+    display: flex;
+    align-items: center;
+}
+.content .right-col p {
+    font-size: 18px;
+    color: #5F5F5F;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.content .right-col #icon1,
+.content .right-col #icon2,
+.content .right-col #icon3
+ {
+    width: 80px;
+    cursor: pointer;
+}
